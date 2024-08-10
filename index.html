@@ -4,19 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <body>
+ 
    
 
-        <header>
-            <a id="logo" href="#" >Jerry Banza</a>
-            <nav id="navbar">
-                <ul  id="nav-list">
+        <header class="header">
+            <a class="header__logo"href="#" >Jerry Banza</a>
+            <nav class="header_navbar">
+                <ul class="header__navbar_list">
     
-                    <li><a href="/PortFolio/CV/CV.html">CV</a>|</li>
-                    <li><a href="/PortFolio/Projet/Projet.html">Projets</a>|</li>
-                    <li><a href="/PortFolio/Contact/Contact.html">Contact</a></li>
+                    <li><a href="/cv.html">CV</a>|</li>
+                    <li><a href="/projet.html">Projets</a>|</li>
+                    <li><a href="/contact.html">Contact</a></li>
                     
                 </ul>
             </nav>
@@ -24,18 +25,18 @@
           
     
         <main>
-          <section id="hero">
+          <section class="hero">
             <div>
-              <img id="hero-image" src="https://z-p3-scontent.ffih1-2.fna.fbcdn.net/v/t1.18169-9/13920732_936260796485485_229333605457744412_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=53a332&_nc_eui2=AeFbTK7U3VAb6j0Z0-WQK3kFhRRPJUpNiUOFFE8lSk2JQ3XmiGy7arS8LsbH8MpTBTw0Fb8fL5cRQjdaAZMMkiAm&_nc_ohc=DoxNk_BdrS8Q7kNvgFJD6Zo&_nc_pt=5&_nc_ht=z-p3-scontent.ffih1-2.fna&oh=00_AYBTe-X3QPV_uCYqOL2csl5-CflTAj4VB9Y9xR0eG-64Tw&oe=66ABD450" alt="Jerry Banza">
+              <img class="hero_image" src="https://scontent.ffih1-2.fna.fbcdn.net/v/t1.18169-9/13962768_936259239818974_3598845968147070630_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=7b2446&_nc_eui2=AeE-9Gp1zAfJTfIRYmHUdy0QhgvcJl9oineGC9wmX2iKdyjtQPw6DCHM7aJsQXkUvsConbXafk6OMjhgOsRrjtsk&_nc_ohc=EfmGEjrYUEcQ7kNvgEw9Rvh&_nc_ht=scontent.ffih1-2.fna&oh=00_AYByRI-_w4eFfKwECCQEmtJL1PoDBCmLzP16Tb1xq3UHew&oe=66DF366D" alt="Jerry Banza">
             </div>
-            <div id="hero-content">
-              <h2>Hello</h2>
-              <h3>A propos de moi</h3>
-              <p> je suis <strong>Jerry Banza</strong>, un apprenti développeur à la Kadea Academy désireux de devenir l'un des meilleures dans le domaine en RDC .</p>
-              <div id="hero-botton-box">
-                <a href="/PortFolio/CV/CV.html"  class="circle cv">CV</a>
-                <a href="/PortFolio/Projet/Projet.html" class="circle projects">Projets</a>
-                <a href="/PortFolio/Contact/Contact.html"  class="circle Contact">Contact</a>
+            <div class="hero_content">
+              <h2 class="hero_content_title">Hello</h2>
+              <h3 class="hero_content_about">A propos de moi</h3>
+              <p class="hero_content__title"> Je suis <strong>Jerry Banza</strong>, un apprenti développeur à la Kadea Academy désireux de devenir l'un des meilleures dans le domaine en RDC .</p>
+              <div class="hero_button">
+                <a href="/cv.html"  class="hero_button__circle_cv">CV</a>
+                <a href="/projet.html" class="hero_button__circle_project">Projets</a>
+                <a href="/contact.html"  class="hero_button__circle_Contact">Contact</a>
               </div>
             </div> 
           </section>
@@ -44,22 +45,22 @@
        
         <footer class="footer">
           <hr>
-          <section id="footer-content">
-           <div id="column-1">
-              <h3>Téléphone</h3>
-              <a href="tel:+243999300900"><p>+243999300900</p></a>
+          <section class="footer_content">
+           <div class="footer_content__call">
+              <h3 class="footer_content_call__number">Téléphone</h3>
+              <a href="tel:+243999300900">+243999300900</a>
             </div>
-            <div id="column-2">
-              <h3>Email</h3> 
+            <div class="footer_content__mail">
+              <h3 class="footer_content_mail_adress">Email</h3> 
               <a href="mailto:banzajerry44@gmail.com" id="email">banzajerry44@gmail.com</a>
             </div>
-            <div id="column-3">
-              <h3>Suivez-moi</h3>
-              <a href="#" ><img id="icon-logo" src= "../PortFolio/image/whatsapp.jpg" alt="Whatsapp"></a>
-              <a href="#" ><img id="icon-logo" src= "../PortFolio/image/gmail.jpg" alt="gmail"></a>
+            <div class="footer_content_logo">
+              <h3 class="footer_content_logo__title">Suivez-moi</h3>
+              <a href="#" ><img class="footer_content__logo__icon" src= "/image/whatsapp.jpg" alt="Whatsapp"></a>
+              <a href="#" ><img class="footer_content__logo__icon" src= "/image/gmail.jpg" alt="gmail"></a>
       
             </div>
-            <p id="column-4">&copy2024 Jerry Banza</p>
+            <p class="footer_content__copyrigth">&copy2024 Jerry Banza</p>
           </section>
           
         </footer>  
