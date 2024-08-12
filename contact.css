@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,500&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+:root{
+    --background-color:#ffff;
+    --color-text:#000000; 
+    --color-boton-1:  #EEA302;
+    --color-boton-2: #E13B25;
+    --color-boton-3:  #80D8DA; 
+}
+
+
+.header{
+    padding: 20px 5%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header_logo{
+    text-decoration: none;
+     font-size: 2.4rem;
+     font-weight: bold;
+     font-family: monospace;
+     color:black;
+ }
+
+
+
+
+.header_navbar__list{
+    display: flex;
+    list-style-type: none;
+}
+
+.header_navbar__list a{
+   text-decoration: none; 
+    padding: 15px;
+    font-size: 2.3rem;
+    font-weight: bold;
+    font-family: monospace;
+    color:black; 
+}
+
+
+.main_contact_info {
+    display: flex;
+    margin: 10%;
+}
+
+.hero_section__info{
+    position:absolute;
+    top:20%;
+    left:30%;
+    
+    
+}
+
+.section_form__col1 {
+    position:absolute;
+    top:20%;
+    left:50%;
+    display:flex;
+    flex-direction:column;
+    gap:5px;
+    font-size:1.2rem;
+}
+
+.section_form__col2 {
+    position:absolute;
+    top:20%;
+    left:65%;
+    display:flex;
+    flex-direction:column;
+    gap:5px;
+    font-size:1.2rem
+}
+
+.box{
+    width:250px;
+    height:40px;
+}
+
+.big_box{
+    height:150px;
+}
+
+
+
+.footer {
+    padding: 10%;
+}
+.footer_content {
+    display: flex;
+}
+
+hr {
+    border: solid 1px rgb(219, 219, 219);
+    margin-bottom: 10px;
+}
+
+.footer_content__call {
+    font-size:1.4rem;
+    width: 25%;
+}
+
+.footer_content__mail {
+    width: 25%;
+    font-size:1.4rem;
+}
+
+ .footer_content__logo{
+    width: 25%;
+    font-size:1.4rem;
+}
+
+.footer_content__copyright {
+    width: 25%;
+    font-size:1.2rem
+}
+
+.footer_content__logo__icon {
+    width: 30px;
+}
+
+h4{
+    margin-bottom: 20px;
+}
+.circle_envoyer{
+    width: 150px;
+    height: 150px;
+    background-color: #F1BD4B;
+    border: 1px solid black;
+    border-radius: 100px;
+    
+    
+}
