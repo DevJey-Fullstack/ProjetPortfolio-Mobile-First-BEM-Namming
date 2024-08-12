@@ -4,18 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="projet.css">
 </head>
 <body>
     <body>
     
-        <header>
-            <a id="logo" href="../index.html" >Jerry Banza</a>
-            <nav id="navbar">
-                <ul  id="nav-list">
+        <header class="header">
+            <a class="header_logo"href="../index.html" >Jerry Banza</a>
+            <nav class="header_navbar">
+                <ul  class="header_navbar__list">
     
-                    <li><a href="../CV/CV.html">CV</a>|</li>
+                    <li><a href="/cv.html">CV</a>|</li>
                     <li><a href="#">Projets</a>|</li>
-                    <li><a href="../Contact/Contact.html">Contact</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
                     
                 </ul>
             </nav>
@@ -23,37 +24,61 @@
     
         <main>
     
-            <section class="project">
+            <section class="hero_section__project">
                 
                 <div>
                     <h1>
                         Projets
                     </h1>
-                        <h2>Dr Norman Borlaug</h2>
+                    </div>
+                    <div class="hero_section__project1">
+                    <div>
+                        <h2>Dr Norman Borlaug</h2><br>
                         <p>Un site qui retrace la vie et le parcours du Dr Norman Borlaug, montrant son implication hautement importante dans l'agronomie.considéré comme le père de la Révolution verte, qui correspond à une transformation importante de l’agriculture d’un pays via l’intensification de la productivité agricole (les composantes de cette révolution étant les VHR, les engrais chimiques et les pesticides).Grâce à cette révolution, les rendements alimentaires mondiaux ont presque triplé entre 1950 et 1990, sans que la surface agricole utile (SAU) mondiale ne soit augmentée.
-                        </p>
+                        </p></div>
+
+                        <div>
+                            <img class="hero_section__project1__img" src="/image1.png" alt="Dr Norman Borlaug">
+                        </div>
+
+                        </div>
             
-                <div>
-                    <h2>Le Formulaire</h2>
-                    <p>I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you. </p>
+                <div class="hero_section__project2">
+                    <div>
+                    <h2>Le Formulaire</h2><br>
+                    <p>I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you. </p></div>
+                    <div>
+                        <img class="hero_section__project2__img2" src="/image2.png" alt="Formulaire">
+                    </div>
                 </div>
         
             
             </section>
-    
-            <section class="img">
-                
-                <div>
-                    <img  id="img1"src="../image/image1.png" alt="Dr Norman Borlaug">
-                </div>
-                <div>
-                    <img id="img2" src="../image/image2.png" alt="Formulaire">
-                </div>
-                
+            </main>
+
+            <footer class="footer">
+                <hr>
+                <section class="footer_content">
+                    <div class="footer_content__call">
+                        <h3 class="footer_content_call__number">Téléphone</h3>
+                        <a href="tel:+243999300900">+243999300900</a>
+                    </div>
+                    <div class="footer_content__mail">
+                        <h3 class="footer_content_mail_adress">Email</h3>
+                        <a href="mailto:banzajerry44@gmail.com" id="email">banzajerry44@gmail.com</a>
+                    </div>
+                    <div class="footer_content_logo">
+                        <h3 class="footer_content_logo__title">Suivez-moi</h3>
+                        <a href="#"><img class="footer_content__logo__icon" src="/image/whatsapp.jpg" alt="Whatsapp"></a>
+                        <a href="#"><img class="footer_content__logo__icon" src="/image/gmail.jpg" alt="gmail"></a>
             
-            </section>
+                    </div>
+                    <p class="footer_content__copyrigth">&copy2024 Jerry Banza</p>
+                </section>
+            
+            </footer>
     
-        </main>
+        
     
      
 </body>
