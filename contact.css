@@ -57,7 +57,7 @@
 
 .main_contact_info {
     display: flex;
-    margin: 10%;
+    margin:20%;
 }
 
 .hero_section__info{
@@ -73,20 +73,29 @@
     top:20vh;
     left:55vw;
     display:flex;
-    flex-direction:column;
     gap:5px;
     font-size:1.2rem;
 }
 
 .section_form__col2 {
     position:absolute;
-    top:20vh;
-    left:70vw;
+    top:30vh;
+    left:55vw;
     display:flex;
-    flex-direction:column;
     gap:5px;
     font-size:1.2rem
 }
+
+.section_form__col3 {
+    position:absolute;
+    top:40vh;
+    left:55vw;
+    display:flex;
+    gap:5px;
+    font-size:1.2rem
+}
+
+
 
 .box{
     width:250px;
@@ -100,7 +109,7 @@
 
 
 .footer {
-    padding: 10%;
+    padding: 5%;
 }
 .footer_content {
     display: flex;
