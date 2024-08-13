@@ -1,4 +1,32 @@
 
+@media screen and (max-width:1040px){
+    
+    .footer_content{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+
+}}
+
+
+@media screen and (max-width:699px){
+
+
+    .header{
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    }
+    
+    .footer_content{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+
+}}
+
+
 
 
 .header{
@@ -10,7 +38,7 @@
 
 .header_logo{
     text-decoration: none;
-     font-size: 2.9rem;
+     font-size: 2.0rem;
      padding: 15px;
      font-weight: bold;
      font-family:monospace;
@@ -27,8 +55,7 @@
 .header_navbar__list a{
    text-decoration:none; 
     padding: 15px;
-    font-size: 2.5rem;
-    font-weight: bold;
+    font-size: 1.7rem;
     font-family:monospace;
     color:black; 
 }
@@ -78,7 +105,7 @@ hr {
     width: 25%;
     margin-bottom: 30px;
     margin-top: 50px;
-    font=family:Georgia;
+    font-family:Georgia;
     font-weight:bold;
 }
 
