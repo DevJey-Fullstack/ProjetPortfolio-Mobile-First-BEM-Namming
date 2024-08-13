@@ -1,0 +1,142 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+
+
+
+.header{
+    padding: 20px 5%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header_logo{
+    text-decoration: none;
+     font-size: 2.4rem;
+     font-weight: bold;
+     font-family: monospace;
+     color:black;
+ }
+
+
+ 
+.header_navbar__list{
+    display: flex;
+    list-style-type: none;
+}
+
+.header_navbar__list a{
+   text-decoration: none; 
+    padding: 15px;
+    font-size: 2.3rem;
+    font-weight: bold;
+    font-family: monospace;
+    color:black; 
+}
+
+
+.hero_section__project{
+    padding: 20px 5%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction:column;
+
+}
+
+.hero_section__project1{
+
+    display:flex;
+    positio
+    
+}
+
+.hero_section__project1__img{
+    width:600px;
+    height:480px;
+    
+}
+
+
+.hero_section__project2{
+
+    display:flex;
+}
+
+.hero_section__project2__img2{
+    width:600px;
+    height:480px;
+    
+}
+
+
+
+
+
+
+.footer_content {
+    display: flex;
+}
+
+hr {
+    border: solid 1px rgb(219, 219, 219);
+    margin-bottom: 10px;
+}
+
+.footer_content__call {
+    font-size:1.4rem;
+    width: 25%;
+}
+
+.footer_content__mail {
+    width: 25%;
+    font-size:1.4rem;
+}
+
+ .footer_content__logo{
+    width: 25%;
+    font-size:1.4rem;
+}
+
+.footer_content__copyright {
+    width: 25%;
+    font-size:1.2rem
+}
+
+.footer_content__logo__icon {
+    width: 30px;
+}
+
+h4{
+    margin-bottom: 20px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
