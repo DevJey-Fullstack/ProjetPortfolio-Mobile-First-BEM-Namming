@@ -4,74 +4,98 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="contact.css">
 </head>
 <body>
-    <header>
-        <a id="logo" href="../index.html" >Jerry Banza</a>
-        <nav id="navbar">
-            <ul  id="nav-list">
+    <header class="header">
+        <a class="header_logo" href="/index.html" >Jerry Banza</a>
+        <nav class="header_navbar">
+            <ul class="header_navbar__list">
 
-                <li><a href="../CV/CV.html">CV</a>|</li>
-                <li><a href="../Projet/Projet.html">Projets</a>|</li>
+                <li><a href="/cv.html">CV</a>|</li>
+                <li><a href="/projet.html">Projets</a>|</li>
                 <li><a href="#">Contact</a></li>
                 
             </ul>
         </nav>
     </header> 
     
-    <main id="contact-info">
-        <section id="info">
-            <div>
-                <h1>Contact</h1>
+    <main class="main_contact_info">
+       
+            <div class="hero_section__info">
+                <h1>Contact</h1><br>
                 <h2>phone</h2>
-                <a href="tel:+243999300900"><p>+234999300900</p></a>
+                <a href="tel:+243999300900"><p>+234999300900</p></a><br>
                 <h2>Email</h2>
-                <a href="mailto:banzajerry44@gmail.com" id="email">banzajerry44@gmail.com</a>
+                <a href="mailto:banzajerry44@gmail.com">banzajerry44@gmail.com</a>
             </div>
         
-        </section>
+       
         
-        <section id="form-sec">
+        <div class="section_form">
             <form>
-                <div class="col">
-                    <label for="">FirstName:</label><br>
-                    <input type="text" name="Finishes name"><br>
-                     <label for="">Email:</label><br>
-                    <input type="email">    <br>
-                    <label for="">Message:</label><br>
-                    <textarea name="text" id="text"></textarea> 
-                    <input type="submit" value="Envoyer" id="circle-envoyer">
+                <div class="section_form__col1">
+                   <div>
+                       <div>
+                           <label>Nom:</label>
+                       </div>
+                       <div>
+                           <input type="text" name="Nom" class="box">
+                       </div>
+                   </div>
+                   <div>
+                       <div><label>Prenom:</label></div>
+
+                       <div><input type="text" name="Prenom" class="box"></div>
+                   </div>
+                </div>
+
+                    <div class="section_form__col2">
+                    <div>
+                        <div>
+                    <label>Email:</label></div>
+                    <div>
+                    <input type="email" class="box"></div>
+                    </div>
+
+                        <div>
+                   <div><label>Subject:</label></div>
+                    <div><input type="text" class="box"></div>
+                    </div>
+                    
                 </div>
     
-                <div class="col">
-                    <label for="">LastName:</label><br>
-                    <input type="text"><br>
-                    <label for="">Subject:</label><br>
-                    <input type="text" >
+                <div class="section_form__col3">
+                <div>
+                   <div><label>Message</label><br></div>
+                   <div><textarea name="" id="" cols="30" rows="10"></textarea></div>
+                </div>
+                  <div><input type="submit" value="Envoyer" class="circle_envoyer"></div>
+                   
                 </div>
             </form>
-        </section>
+    </div>
     
     </main>
     
     <footer class="footer">
         <hr>
-        <section id="footer-content">
-         <div id="column-1">
-            <h4>Téléphone</h4>
+        <section class="footer_content">
+         <div class="footer_content__call">
+            <h4 class="footer_content__call__number">Téléphone</h4>
             <a href="tel:+243999300900"><p>+243999300900</p></a>
           </div>
-          <div id="column-2">
-            <h4>Email</h4> 
-            <a href="mailto:banzajerry44@gmail.com" id="email">banzajerry44@gmail.com</a>
+          <div class="footer_content__mail">
+            <h4 class="footer_content__mail__adress">Email</h4> 
+            <a href="mailto:banzajerry44@gmail.com">banzajerry44@gmail.com</a>
           </div>
-          <div id="column-3">
+          <div class="footer_content__logo">
             <h4>Suivez-moi</h4>
-            <a href="#" ><img id="icon-logo" src= "../image/whatsapp.jpg" alt="Whatsapp"></a>
-            <a href="#" ><img id="icon-logo" src= "../image/gmail.jpg" alt="gmail"></a>
+            <a href="#" ><img class="footer_content__logo__icon" src= "/whatsapp.jpg" alt="Whatsapp"></a>
+            <a href="#" ><img class="footer_content__logo__icon" src= "/gmail.jpg" alt="gmail"></a>
     
           </div>
-          <p id="column-4">&copy2024 Jerry Banza</p>
+          <p class="footer_content__copyright">&copy;2024 Jerry Banza</p>
         </section>
         
       </footer>

@@ -1,0 +1,158 @@
+
+@media screen and (max-width:785px){
+    .main_contact_info{
+        display:flex;
+        flex-difrection:column;
+
+    }
+}
+
+
+
+
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+
+
+.header{
+    padding: 20px 5%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header_logo{
+    text-decoration: none;
+     font-size: 2.0rem;
+     font-weight: bold;
+     font-family: monospace;
+     color:black;
+ }
+
+
+
+
+.header_navbar__list{
+    display: flex;
+    list-style-type: none;
+}
+
+.header_navbar__list a{
+   text-decoration: none; 
+    padding: 15px;
+    font-size: 1.7rem;
+
+    font-family: monospace;
+    color:black; 
+}
+
+
+.main_contact_info {
+    display: flex;
+    margin:20%;
+}
+
+.hero_section__info{
+    position:absolute;
+    top:20%;
+    left:30%;
+    
+    
+}
+
+.section_form__col1 {
+    position:absolute;
+    top:20vh;
+    left:55vw;
+    display:flex;
+    gap:5px;
+    font-size:1.2rem;
+}
+
+.section_form__col2 {
+    position:absolute;
+    top:30vh;
+    left:55vw;
+    display:flex;
+    gap:5px;
+    font-size:1.2rem
+}
+
+.section_form__col3 {
+    position:absolute;
+    top:40vh;
+    left:55vw;
+    display:flex;
+    gap:5px;
+    font-size:1.2rem
+}
+
+
+
+.box{
+    width:250px;
+    height:40px;
+}
+
+.big_box{
+    height:150px;
+}
+
+
+
+.footer {
+    padding: 5%;
+}
+.footer_content {
+    display: flex;
+}
+
+hr {
+    border: solid 1px rgb(219, 219, 219);
+    margin-bottom: 10px;
+}
+
+.footer_content__call {
+    font-size:1.4rem;
+    width: 25%;
+}
+
+.footer_content__mail {
+    width: 25%;
+    font-size:1.4rem;
+}
+
+ .footer_content__logo{
+    width: 25%;
+    font-size:1.4rem;
+}
+
+.footer_content__copyright {
+    width: 25%;
+    font-size:1.2rem
+}
+
+.footer_content__logo__icon {
+    width: 30px;
+}
+
+h4{
+    margin-bottom: 20px;
+}
+.circle_envoyer{
+    width: 150px;
+    height: 150px;
+    background-color: #F1BD4B;
+    border: 1px solid black;
+    border-radius: 100px;
+    
+    
+}
